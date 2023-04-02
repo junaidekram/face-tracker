@@ -156,7 +156,7 @@ function drawCircle(x, y, color, size){
  * @param size - (optional) size of the font, default 12
  */
 function drawText(text, x, y, color, size){
-    if(!color) color = 'blue';
+    if(!color) color = '#00AA99';
     if(!size) size = 12;
     context.fillStyle = color;
     context.font = size+"px Arial";
