@@ -13,6 +13,7 @@ function startMyVideo() {
     showElement("stopVideo");
     showElement("debug");
     startVideo();
+    mockMode = true;
 }
 
 function stopMyVideo() {
