@@ -70,7 +70,7 @@ function registerVideoPlay(fn){
     });
 }
 
-// =================== Face Tracker Helper ===================
+// ================== Face Tracker Helper ===================
 
 let faceTracker; // Face Tracking
 // See https://www.auduno.com/clmtrackr/docs/reference.html for function documentation
