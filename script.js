@@ -12,7 +12,6 @@ function startMyVideo() {
     hideElement("startVideo");
     showElement("stopVideo");
     showElement("debug");
-    // Call helper library to start webcam
     startVideo();
 }
 
@@ -20,7 +19,6 @@ function stopMyVideo() {
     showElement("startVideo");
     hideElement("stopVideo");
     hideElement("debug");
-    // Call helper library to stop webcam
     stopVideo();
     mockMode = false;
 }
@@ -29,11 +27,7 @@ registerVideoPlay(playMyVideo);
 
 function playMyVideo(){
     console.log("Now playing webcam...");
-
-    // Start Facetracker
-    //startFT();
-
-    // Draw my face
+    startFT();
     drawMyFace();
 }
 
