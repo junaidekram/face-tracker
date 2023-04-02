@@ -66,7 +66,7 @@ function drawMyFace(){
 }
 
 function setMyFaceScore(){
-  const score = 0; /*getFTScore();*/
+  const score = getFTScore();
   scoreEl.innerText = Math.round(score);
 }
 
